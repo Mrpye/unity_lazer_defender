@@ -33,6 +33,7 @@ public class MusicPlayer : MonoBehaviour {
     }
 
     public void playMusic(AudioClip music) {
+        audio_source = gameObject.GetComponent<AudioSource>();
         if (current_music != null && current_music.name == music.name) { return; }
         audio_source.Stop();
         currently_playng_intro = false;

@@ -7,7 +7,8 @@ public class EnemySpawner : MonoBehaviour {
     [SerializeField] private MusicPlayer music_player;
     [SerializeField] private int play_from;
 
-    private int startingWave = 0;
+    [SerializeField]  private int startingWave = 0;
+    [SerializeField] WaveConfig  currentWave ;
     [SerializeField] private bool looping = false;
 
     // Start is called before the first frame update

@@ -121,13 +121,14 @@ MonoBehaviour:
   projectile_speed: 10
   durationOfExplosion: 0.5
   minShootWithinRange: 0.3
+  laser: {fileID: 0}
   deathFX: {fileID: 7099953782563593943, guid: b3bb7aa51d3524048a66b0826160ff62, type: 3}
   debri_item: []
-  debri_item_count: 3
+  debri_item_count: 5
   debri_move_speed_min: 1
-  debri_move_speed_max: 5
+  debri_move_speed_max: 10
   debri_rotate_speed_min: 1
-  debri_rotate_speed_max: 5
+  debri_rotate_speed_max: 10
   debri_on_death: 0
   is_debri: 0
   time_to_live: 2

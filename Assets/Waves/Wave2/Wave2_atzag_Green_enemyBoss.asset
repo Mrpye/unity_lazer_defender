@@ -10,34 +10,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e268e043b4edb84fbfe4dbd7a4e8573, type: 3}
-  m_Name: Wave2_circle_Green_enemyBoss
+  m_Name: Wave2_atzag_Green_enemyBoss
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 527119248859500331, guid: f9ba1de8b29a22b41955816b08c09b87,
+  enemyPrefab: {fileID: 7062746468515816059, guid: e8dacde65ed78bc4cb6c8395006f0784,
     type: 3}
-  pathPrefab: {fileID: 4277696639086264232, guid: 8e7f9841089c2704e974511fcfaa10b4,
+  pathPrefab: {fileID: 4277696639086264232, guid: 580911a95a2232244a1f967356a518f1,
     type: 3}
-  timeBetweenSpawns: 0.2
+  timeBetweenSpawns: 1
   spawnRandomFactor: 1
-  numberOfEnemies: 1
+  numberOfEnemies: 4
   MoveSpeed: 12
   HasSecondMoveSpeed: 1
   SecondMoveSpeedAt: 1
-  SecondmoveSpeed: 8
-  intro_music: {fileID: 8300000, guid: 468fb4d62556f424f954ce6bf53801b6, type: 3}
+  SecondmoveSpeed: 10
+  intro_music: {fileID: 0}
   music: {fileID: 8300000, guid: 4c8298f7346529d4394971a5abd72322, type: 3}
   force_intro: 0
-  loop: 1
-  start_loop: 3
-  circling: 1
+  loop: 0
+  start_loop: 13
+  circling: 0
   radius: 3
   radius_increase_factor: 0
-  max_radius: 5
+  max_radius: 4
   sin: 0
-  amplitudeX: 5
+  amplitudeX: 10
   amplitudeY: 5
-  omegaX: 1
-  omegaY: 8
+  omegaX: 5
+  omegaY: 1
   point_steps: 100
-  angle_factor: 360
+  angle_factor: 270
   wait_until_x_left: 1
-  wait_until_x_ammount: 1
+  wait_until_x_ammount: 3

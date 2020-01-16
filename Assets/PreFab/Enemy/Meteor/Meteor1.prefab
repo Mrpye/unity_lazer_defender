@@ -121,15 +121,18 @@ MonoBehaviour:
   projectile_speed: 10
   durationOfExplosion: 0.5
   minShootWithinRange: 0.3
+  laser: {fileID: 0}
   deathFX: {fileID: 7099953782563593943, guid: b3bb7aa51d3524048a66b0826160ff62, type: 3}
   debri_item:
-  - {fileID: 1668281286358644430, guid: 6cf84fb8e39b6c340baa0411f2487484, type: 3}
+  - {fileID: 1668281286358644430, guid: 13d7cb4f77844894894773f8d8a062dc, type: 3}
   debri_item_count: 3
   debri_move_speed_min: 1
-  debri_move_speed_max: 5
+  debri_move_speed_max: 10
   debri_rotate_speed_min: 1
-  debri_rotate_speed_max: 5
+  debri_rotate_speed_max: 10
   debri_on_death: 1
+  is_debri: 0
+  time_to_live: 9
   can_spawn_random_powerup: 0
   random_powerup_chance: 100
 --- !u!50 &50173806334839388
