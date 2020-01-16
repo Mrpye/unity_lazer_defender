@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9207208967282786018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6148709264947639662}
+  - component: {fileID: 524835936618000613}
+  m_Layer: 0
+  m_Name: PowerUpSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6148709264947639662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207208967282786018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.0493188, y: -3.0303235, z: -0.054037828}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &524835936618000613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207208967282786018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae26eb45a5151ac4395fa142c91e9c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpPrefab:
+  - {fileID: 5349651420348898689, guid: c08b502be0bf3044d9e4c9545d9d29ed, type: 3}
+  - {fileID: 5349651420348898689, guid: 2d1e7de355885174e816b648d9010fa6, type: 3}
+  - {fileID: 5349651420348898689, guid: 5758b29971ac1c641be8de61d8a6d8c7, type: 3}
+  - {fileID: 5349651420348898689, guid: 173580a8efd5da942b61aac86d410674, type: 3}
+  - {fileID: 5349651420348898689, guid: 4e670768290d10849a599fdfd7b3c8e7, type: 3}
+  - {fileID: 5349651420348898689, guid: 21752b849dd12d44fa60135af12ae90b, type: 3}
+  - {fileID: 5349651420348898689, guid: 1c9e16857502b974ab4f92636709bf21, type: 3}
+  - {fileID: 5349651420348898689, guid: db5f1d9d99ae9ad4b8cd505c3fbbc170, type: 3}
+  moveSpeed: 2

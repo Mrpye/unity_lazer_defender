@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e268e043b4edb84fbfe4dbd7a4e8573, type: 3}
+  m_Name: CircleLoop 2
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 7062746468515816059, guid: 3db05813f1876c743bd0878785fed66e,
+    type: 3}
+  pathPrefab: {fileID: 7366033508754686150, guid: 4bcc0cec79ac13049917e17894ccec8a,
+    type: 3}
+  timeBetweenSpawns: 0.2
+  spawnRandomFactor: 1
+  numberOfEnemies: 10
+  MoveSpeed: 15
+  HasSecondMoveSpeed: 1
+  SecondMoveSpeedAt: 3
+  SecondmoveSpeed: 15
+  intro_music: {fileID: 8300000, guid: 468fb4d62556f424f954ce6bf53801b6, type: 3}
+  music: {fileID: 8300000, guid: 4c8298f7346529d4394971a5abd72322, type: 3}
+  loop: 1
+  start_loop: 3
+  circling: 1
+  radius: 1
+  radius_increase_factor: 0.08
+  point_steps: 100
+  angle_factor: 2880
+  max_radius: 5
+  sin: 0
+  amplitudeX: 10
+  amplitudeY: 5
+  omegaX: 5
+  omegaY: 1
+  wait_until_x_left: 0
+  wait_until_x_ammount: 0

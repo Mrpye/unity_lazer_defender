@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e268e043b4edb84fbfe4dbd7a4e8573, type: 3}
+  m_Name: IntroWave
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 7062746468515816059, guid: 41f3e336ae78c8344989c2e2021b0338,
+    type: 3}
+  pathPrefab: {fileID: 4277696639086264232, guid: dcc9d8a835483464ea56880d9326ef85,
+    type: 3}
+  timeBetweenSpawns: 0.2
+  spawnRandomFactor: 1
+  numberOfEnemies: 1
+  MoveSpeed: 10
+  HasSecondMoveSpeed: 0
+  SecondMoveSpeedAt: 3
+  SecondmoveSpeed: 2
+  intro_music: {fileID: 8300000, guid: c108d2fd05da9c94e8220eb9efb530ec, type: 3}
+  music: {fileID: 8300000, guid: ee6a039f1a9fc584487a48f0a559f0a5, type: 3}
+  force_intro: 1
+  loop: 0
+  start_loop: 3
+  circling: 1
+  radius: 3
+  radius_increase_factor: 0
+  max_radius: 3
+  sin: 0
+  amplitudeX: 10
+  amplitudeY: 5
+  omegaX: 5
+  omegaY: 1
+  point_steps: 100
+  angle_factor: 270
+  wait_until_x_left: 1
+  wait_until_x_ammount: 0

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e268e043b4edb84fbfe4dbd7a4e8573, type: 3}
+  m_Name: Wave1_atzag_red_enemyBoss
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 527119248859500331, guid: 2be7286aa6b39ef4caadedf33c628345,
+    type: 3}
+  pathPrefab: {fileID: 4277696639086264232, guid: 580911a95a2232244a1f967356a518f1,
+    type: 3}
+  timeBetweenSpawns: 2
+  spawnRandomFactor: 1
+  numberOfEnemies: 3
+  MoveSpeed: 12
+  HasSecondMoveSpeed: 1
+  SecondMoveSpeedAt: 1
+  SecondmoveSpeed: 10
+  intro_music: {fileID: 0}
+  music: {fileID: 8300000, guid: 4c8298f7346529d4394971a5abd72322, type: 3}
+  force_intro: 0
+  loop: 0
+  start_loop: 13
+  circling: 0
+  radius: 3
+  radius_increase_factor: 0
+  max_radius: 4
+  sin: 0
+  amplitudeX: 10
+  amplitudeY: 5
+  omegaX: 5
+  omegaY: 1
+  point_steps: 100
+  angle_factor: 270
+  wait_until_x_left: 1
+  wait_until_x_ammount: 2

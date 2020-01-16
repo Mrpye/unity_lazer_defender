@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e268e043b4edb84fbfe4dbd7a4e8573, type: 3}
+  m_Name: Wave2_figure8_Green_enemy
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 7062746468515816059, guid: 47ddca8bb6b55a241a3998719d9487ee,
+    type: 3}
+  pathPrefab: {fileID: 4277696639086264232, guid: d7833b0f6ce5d9948a9f343a9f5e0434,
+    type: 3}
+  timeBetweenSpawns: 0.2
+  spawnRandomFactor: 1
+  numberOfEnemies: 4
+  MoveSpeed: 12
+  HasSecondMoveSpeed: 1
+  SecondMoveSpeedAt: 1
+  SecondmoveSpeed: 8
+  intro_music: {fileID: 0}
+  music: {fileID: 0}
+  force_intro: 0
+  loop: 1
+  start_loop: 3
+  circling: 0
+  radius: 3
+  radius_increase_factor: 0
+  max_radius: 4
+  sin: 1
+  amplitudeX: 5
+  amplitudeY: 4
+  omegaX: 5
+  omegaY: 8
+  point_steps: 100
+  angle_factor: 270
+  wait_until_x_left: 1
+  wait_until_x_ammount: 2
